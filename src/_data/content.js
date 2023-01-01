@@ -1,4 +1,4 @@
-const header = 'The Fediverse Report';
+const header = "<h1>Welcome to the Fediverse report.</h1><p class='tagline'>For all the relevant news on the emerging Fediverse</p>";
 const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10 ';
 //import { footer } from './Footer.js';
 
@@ -6,7 +6,7 @@ const entries = [
   {
     id: 'mastodon-releases-public-roadmap',
     categories: ['news', 'mastodon'],
-    color: 'green',
+    color: 'blue',
     faicon: 'road',
     datetime: '2022-12-31 19:48',
     title: 'Mastodon releases public development roadmap',
@@ -26,7 +26,7 @@ const entries = [
   {
     id: 'shuttlecraft-selfhostable-microblogging-tool-implementing-activitypub',
     categories: ['software'],
-    color: 'green',
+    color: 'blue',
     faicon: 'screwdriver-wrench',
     datetime: '2022-12-31 01:49',
     title: 'Shuttlecraft, a tool for self-hosting a microblogging tool that works with ActivityPub, released',
@@ -42,7 +42,7 @@ const entries = [
   {
     id: 'ars-technica-mastodon—and-the-pros-and-cons-of-moving-beyond-big-tech-gatekeepers',
     categories: ['analysis'],
-    color: 'green',
+    color: 'blue',
     faicon: 'magnifying-glass',
     datetime: '2022-12-30 14:00',
     title: 'Ars Technica: Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers',
@@ -64,7 +64,7 @@ const entries = [
   {
     id: 'reddit-ama-eugen-rochko',
     categories: ['mastodon'],
-    color: 'green',
+    color: 'blue',
     faicon: 'question',
     datetime: '2022-12-21 00:00',
     title: 'Reddit AMA with Eugen Rochko',
@@ -80,7 +80,7 @@ const entries = [
   {
     id: 'twitter-suspends-mastodon-account-prevents-sharing-link-mastodon-statement',
     categories: ['news', 'mastodon', 'twitter'],
-    color: 'green',
+    color: 'blue',
     faicon: 'hashtag',
     datetime: '2022-12-20 00:00',
     title: 'Statement by Mastodon on the suspention of links to Mastodon on Twitter',
@@ -96,7 +96,7 @@ const entries = [
   {
     id: 'automattic-tweet-future-implementation-activityPub',
     categories: ['news'],
-    color: 'green',
+    color: 'blue',
     faicon: 'hashtag',
     datetime: '2022-11-21 08:02',
     title: 'Automattic (Tumblr, Wordpress) CEO Matt Mullenweg announces support for ActivityPub coming "ASAP"',
@@ -114,7 +114,28 @@ const entries = [
       },
     ],
   },
-   
+
+  {
+    id: 'the-many-branches-of-the-fediverse',
+    categories: ['explainer'],
+    color: 'blue',
+    faicon: 'exclamation',
+    date: '2022-11-02',
+    title: 'The many branches of the Fediverse',
+    image: {
+      link: 'https://axbom.com/content/images/size/w2000/2022/11/fediverse-branches-axbom-20-CC-BY-SA.webp',
+      src: 'https://axbom.com/content/images/size/w2000/2022/11/fediverse-branches-axbom-20-CC-BY-SA.webp',
+      alt: 'A tree that represents the fediverse',
+      caption: 'The many branches of the Fediverse',
+    },
+    body: 'A visualisation created by Axbom, showing the many branches of the fediverse, that show how it is much larger than just Mastodon.',
+    links: [
+      {
+        href: 'https://axbom.com/fediverse/',
+        linkText: 'The tree of the Fediverse branches',
+      },
+    ],
+  },
 ];
 
 // Page details
