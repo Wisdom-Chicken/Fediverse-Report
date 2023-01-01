@@ -1,5 +1,5 @@
-const header = 'The Fediverse is actually going great!';
-const footer = 'This website is dedicated to documenting the news around the Fediverse';
+const header = 'The Fediverse Report';
+const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10 ';
 //import { footer } from './Footer.js';
 
 const entries = [
@@ -7,7 +7,7 @@ const entries = [
     id: 'mastodon-releases-public-roadmap',
     categories: ['news', 'mastodon'],
     color: 'green',
-    faicon: 'dog',
+    faicon: 'road',
     datetime: '2022-12-31 19:48',
     title: 'Mastodon releases public development roadmap',
     body: 'Eugen Rochko, the main developer for Mastodon, has released the public development roadmap for Mastodon.',
@@ -27,7 +27,7 @@ const entries = [
     id: 'shuttlecraft-selfhostable-microblogging-tool-implementing-activitypub',
     categories: ['software'],
     color: 'green',
-    faicon: 'dog',
+    faicon: 'screwdriver-wrench',
     datetime: '2022-12-31 01:49',
     title: 'Shuttlecraft, a tool for self-hosting a microblogging tool that works with ActivityPub, released',
     body: 'Ben Brown has released a new tool called Shuttlecraft, described as follows: "Its a small, easy to host web app that contains almost everything you need to host your own personal instance of a federated ActivityPub server. Your shuttlecraft hosts your social media identity, along with the tools to post, follow, and interact with other people on any other compatible service like Mastodon, GoToSocial, and others. "',
@@ -43,7 +43,7 @@ const entries = [
     id: 'ars-technica-mastodon—and-the-pros-and-cons-of-moving-beyond-big-tech-gatekeepers',
     categories: ['analysis'],
     color: 'green',
-    faicon: 'twitter',
+    faicon: 'magnifying-glass',
     datetime: '2022-12-30 14:00',
     title: 'Ars Technica: Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers',
     // image: {
@@ -65,7 +65,7 @@ const entries = [
     id: 'reddit-ama-eugen-rochko',
     categories: ['mastodon'],
     color: 'green',
-    faicon: 'cat',
+    faicon: 'question',
     datetime: '2022-12-21 00:00',
     title: 'Reddit AMA with Eugen Rochko',
     body: 'Eugen Rochko, lead developer and creator of Mastodon, held a Reddit AMA, answering many questions about Mastodon, the fediverse and ActivityPub.',
@@ -81,7 +81,7 @@ const entries = [
     id: 'twitter-suspends-mastodon-account-prevents-sharing-link-mastodon-statement',
     categories: ['news', 'mastodon', 'twitter'],
     color: 'green',
-    faicon: 'cat',
+    faicon: 'hashtag',
     datetime: '2022-12-20 00:00',
     title: 'Statement by Mastodon on the suspention of links to Mastodon on Twitter',
     body: 'Eugen Rochko, lead developer and creator of Mastodon, has put out a blog statement about Twitter suspending the @joinmastodon account, as well as blocking links to Mastodon in tweets. He states: "At Mastodon, we believe that there doesn’t have to be a middleman between you and your audience and that journalists and government institutions especially should not have to rely on a private platform to reach the public."',
@@ -97,7 +97,7 @@ const entries = [
     id: 'automattic-tweet-future-implementation-activityPub',
     categories: ['news'],
     color: 'green',
-    faicon: 'dog',
+    faicon: 'hashtag',
     datetime: '2022-11-21 08:02',
     title: 'Automattic (Tumblr, Wordpress) CEO Matt Mullenweg announces support for ActivityPub coming "ASAP"',
     // image: {
