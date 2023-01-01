@@ -1,54 +1,126 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 'The Fediverse is actually going great!';
+const footer = 'This website is dedicated to documenting the news around the Fediverse';
+//import { footer } from './Footer.js';
+
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
-    color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
-    image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
-    },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
-      },
-    ],
-  },
-  {
-    id: 'dog',
-    categories: ['dog'],
+    id: 'mastodon-releases-public-roadmap',
+    categories: ['news', 'mastodon'],
     color: 'green',
     faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    datetime: '2022-12-31 19:48',
+    title: 'Mastodon releases public development roadmap',
+    body: 'Eugen Rochko, the main developer for Mastodon, has released the public development roadmap for Mastodon.',
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
+        href: 'https://joinmastodon.org/roadmap',
+        linkText: 'Development Roadmap',
+      },
+      {
+        href: 'https://github.com/mastodon/mastodon/discussions/22644#discussioncomment-4562748',
+        linkText: 'Announcement by Eugen Rochko',
       },
     ],
   },
+
+  {
+    id: 'shuttlecraft-selfhostable-microblogging-tool-implementing-activitypub',
+    categories: ['software'],
+    color: 'green',
+    faicon: 'dog',
+    datetime: '2022-12-31 01:49',
+    title: 'Shuttlecraft, a tool for self-hosting a microblogging tool that works with ActivityPub, released',
+    body: 'Ben Brown has released a new tool called Shuttlecraft, described as follows: "Its a small, easy to host web app that contains almost everything you need to host your own personal instance of a federated ActivityPub server. Your shuttlecraft hosts your social media identity, along with the tools to post, follow, and interact with other people on any other compatible service like Mastodon, GoToSocial, and others. "',
+    links: [
+      {
+        href: 'https://shuttlecraft.net/',
+        linkText: 'Shuttlecraft, by Ben Brown',
+      },
+    ],
+  },   
+
+  {
+    id: 'ars-technica-mastodon—and-the-pros-and-cons-of-moving-beyond-big-tech-gatekeepers',
+    categories: ['analysis'],
+    color: 'green',
+    faicon: 'twitter',
+    datetime: '2022-12-30 14:00',
+    title: 'Ars Technica: Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers',
+    // image: {
+    //   link: 'http://placekitten.com',
+    //   src: 'http://placekitten.com/200/300',
+    //   alt: 'A placeholder kitten',
+    //   caption: 'Kitten!',
+    // },
+    body: 'Ars gives a deep dive of how "Standards-based interoperability makes a comeback, sort of". <br> <br> Furthermore, it notes how queer people influenced the design of the network, stating that "Queer people built the Fediverse, she said, adding that four of the five authors of the ActivityPub standard identify as queer. As a result, protections against undesired interaction are built into ActivityPub and the various front ends."',
+    links: [
+      {
+        href: 'https://arstechnica.com/gadgets/2022/12/mastodon-highlights-pros-and-cons-of-moving-beyond-big-tech-gatekeepers/',
+        linkText: '"Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers", Ars Technica',
+      },
+    ],
+  },
+
+  {
+    id: 'reddit-ama-eugen-rochko',
+    categories: ['mastodon'],
+    color: 'green',
+    faicon: 'cat',
+    datetime: '2022-12-21 00:00',
+    title: 'Reddit AMA with Eugen Rochko',
+    body: 'Eugen Rochko, lead developer and creator of Mastodon, held a Reddit AMA, answering many questions about Mastodon, the fediverse and ActivityPub.',
+    links: [
+      {
+        href: 'https://www.reddit.com/r/Mastodon/comments/zqfr4h/ama_with_eugen_rochko_founder_and_lead_developer/',
+        linkText: 'Reddit AMA',
+      },
+    ],
+  },
+
+  {
+    id: 'twitter-suspends-mastodon-account-prevents-sharing-link-mastodon-statement',
+    categories: ['news', 'mastodon', 'twitter'],
+    color: 'green',
+    faicon: 'cat',
+    datetime: '2022-12-20 00:00',
+    title: 'Statement by Mastodon on the suspention of links to Mastodon on Twitter',
+    body: 'Eugen Rochko, lead developer and creator of Mastodon, has put out a blog statement about Twitter suspending the @joinmastodon account, as well as blocking links to Mastodon in tweets. He states: "At Mastodon, we believe that there doesn’t have to be a middleman between you and your audience and that journalists and government institutions especially should not have to rely on a private platform to reach the public."',
+    links: [
+      {
+        href: 'https://blog.joinmastodon.org/2022/12/twitter-suspends-mastodon-account-prevents-sharing-links/',
+        linkText: 'Twitter suspends Mastodon account, prevents sharing links, Statement by Mastodon',
+      },
+    ],
+  },
+
+  {
+    id: 'automattic-tweet-future-implementation-activityPub',
+    categories: ['news'],
+    color: 'green',
+    faicon: 'dog',
+    datetime: '2022-11-21 08:02',
+    title: 'Automattic (Tumblr, Wordpress) CEO Matt Mullenweg announces support for ActivityPub coming "ASAP"',
+    // image: {
+    //   link: 'http://place-puppy.com',
+    //   src: 'https://place-puppy.com/300x300',
+    //   alt: 'A placeholder puppy',
+    //   caption: 'Puppy!',
+    // },
+    body: 'Automattic CEO Matt Mullenweg said in a tweet that Automattic is implementing ActivityPub support ASAP. No further communicating has been made regarding this, with the CEO also noting that onboarding a wave of new users is the highest priority. <br> <br> Automattic is the company behind products like Tumblr and WordPress, and is explicitly committed to Open Source.',
+    links: [
+      {
+        href: 'https://twitter.com/photomatt/status/1594587024245260289',
+        linkText: 'Tweet by Matt Mullenweg',
+      },
+    ],
+  },
+   
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'The fediverse is actually going great'; // The title of the page that shows in the browser tab
+const pageDescription = 'A timeline documenting news around the fediverse'; // The description of the page for search engines
+const pageAuthor = 'Laurens Hof'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
