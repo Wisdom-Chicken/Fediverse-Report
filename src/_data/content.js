@@ -4,6 +4,26 @@ const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10
 
 const entries = [
   {
+    id: 'pixelfed-android-apk-release',
+    categories: ['news', 'pixelfed'],
+    color: 'forestgreen',
+    faicon: 'camera',
+    datetime: '2022-12-31 19:48',
+    title: 'Pixelfed releases Android app APK',
+    body: 'Pixelfed, the decentralized photo sharing platform, has released an APK for their Android App. They announced on Mastodon that Google Play Store and F-Droid will come later this year. Earlier, Pixelfed has announced that the iOS Testflight version is in early access.',
+    links: [
+      {
+        href: 'https://mastodon.social/@pixelfed/109618139027744923',
+        linkText: 'Announcement on Mastodon',
+      },
+      {
+        href: 'https://testflight.apple.com/join/5HpHJD5l',
+        linkText: 'iOS testflight beta access',
+      },
+    ],
+  },
+
+  {
     id: 'mastodon-releases-public-roadmap',
     categories: ['news', 'mastodon'],
     color: 'forestgreen',
