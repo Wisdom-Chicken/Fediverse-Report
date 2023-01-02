@@ -114,6 +114,27 @@ const entries = [
   },
 
   {
+    id: 'the-creator-of-activitypub-on-whats-next-for-the-fediverse',
+    categories: ['analysis', 'activitypub'],
+    color: 'forestgreen',
+    faicon: 'hashtag',
+    date: '2022-12-07',
+    title: 'A Creator of ActivityPub on What’s Next for the Fediverse ',
+    image: {
+      src: 'https://cdn.thenewstack.io/media/2022/12/b91a46d5-evanp-300x300.jpeg',
+      alt: 'Evan Prodromou (via GitHub)',
+      caption: 'Evan Prodromou (via GitHub)',
+    },
+    body: 'The New Stack talks with Evan Prodromou about Activitypub, the history of the formation of the protocol, and his involvement with the creation',
+    links: [
+      {
+        href: 'https://thenewstack.io/the-creator-of-activitypub-on-whats-next-for-the-fediverse/',
+        linkText: 'Full interview by The New Stack',
+      },
+    ],
+  },  
+
+  {
     id: 'automattic-tweet-future-implementation-activityPub',
     categories: ['news'],
     color: 'forestgreen',
