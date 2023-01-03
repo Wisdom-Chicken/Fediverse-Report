@@ -4,6 +4,21 @@ const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10
 
 const entries = [
   {
+    id: 'eugen-rochko-considering-quote-posting',
+    categories: ['news', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'screwdriver-wrench',
+    datetime: '2023-01-03 11:30',
+    title: 'Eugen Rochko says Mastodon is considering quote posting',
+    body: 'Eugen Roch has made a post on Mastodon, saying that the development team is considering adding quote posting. He notes that if it would be added, it would come with an opt-out feature. <br> <br> Quote posting, or quote tweeting as its called on Twitter, has been subject of significant discussion in recent days. Proponents feel it is an important feature to give better context to discussions that are happening on the platform. Opponents fear that it encourages harrasment and dunking on opponents. <br> <br> Other microblogging clients on the fediverse, such as Akkoma and Misskey, include quote posting functionality, while Mastodon does not.',
+    links: [  {
+        href: 'https://mastodon.social/@Gargron/109623891328707089',
+        linkText: 'Mastodon post by Eugen Rochko',
+      },
+    ],
+  },
+
+  {
     id: 'pixelfed-android-apk-release',
     categories: ['news', 'pixelfed'],
     color: 'forestgreen',
@@ -133,6 +148,23 @@ const entries = [
       },
     ],
   },  
+
+  {
+    id: 'lighting-a-bonfire-under-social-media-devs-and-activitypub',
+    categories: ['analysis', 'activitypub'],
+    color: 'forestgreen',
+    faicon: 'hashtag',
+    date: '2022-11-28',
+    title: 'The New Stack describes how developers are rethinking social networking on the Fediverse beyond Mastodon',
+    body: 'The New Stack talks to developers, and describes their projects that are part of the Fediverse. It talks about the app Bonfire that is under development, which focuses on social circles. Hometown is a Mastodon fork which features local-only posting. It also mentions OLKi, although that project seems to be abandoned in 2021.',
+    links: [
+      {
+        href: 'Lighting a Bonfire Under Social Media: Devs and ActivityPub',
+        linkText: 'Full article by The New Stack',
+      },
+    ],
+  },  
+
 
   {
     id: 'automattic-tweet-future-implementation-activityPub',
