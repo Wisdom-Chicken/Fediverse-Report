@@ -4,6 +4,52 @@ const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10
 
 const entries = [
   {
+    id: 'patreon-update-mastodon',
+    categories: ['news', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'newspaper',
+    date: '2023-01-07',
+    title: 'Patreon update by the Mastodon organisation',
+    body: 'The Mastodon organisation has posted a news update on their Patreon page. The organisation has grown from a monthly donation of 7k USD in November 2022 to 31k USD in January 2023. They plan to hire more people, and have layed out the public roadmap. For all the details, see the post on Patreon.',
+    links: [  {
+      href: 'https://www.patreon.com/posts/where-were-at-76904049',
+      linkText: 'Where we`re at, by Mastodon organisation',
+      },
+    ],
+  },
+
+  {
+    id: 'patreon-update-mastodon',
+    categories: ['news', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'newspaper',
+    date: '2023-01-07',
+    title: 'Patreon update by the Mastodon organisation',
+    body: 'The Mastodon organisation has posted a news update on their Patreon page. The organisation has grown from a monthly donation of 7k USD in November 2022 to 31k USD in January 2023. They plan to hire more people, and have layed out the public roadmap. For all the details, see the post on Patreon.',
+    links: [  {
+      href: 'https://www.patreon.com/posts/where-were-at-76904049',
+      linkText: 'Where we`re at, by Mastodon organisation',
+      },
+    ],
+  },
+
+  {
+    id: 'longtime-twitter-employee-discusses-mastodon',
+    categories: ['analysis', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'magnifying-glass',
+    date: '2023-01-05',
+    title: 'Ex-twitter designer Paul Stamatiou discusses Mastodon and decentralized networks in high detail',
+    body: 'Paul Stamatiou is a designer that has worked at Twitter for over 9 years. In this blogpost, he discusses Mastodon, Twitter, and owning your data from the perspective of someone that worked at Twitter for nine years.',
+    links: [  {
+      href: 'https://paulstamatiou.com/mastodon/',
+      linkText: 'Mastodon, by Paul  Stamatiou',
+      },
+    ],
+  },
+
+
+  {
     id: 'eugen-rochko-considering-quote-posting',
     categories: ['news', 'mastodon'],
     color: 'forestgreen',
@@ -17,6 +63,27 @@ const entries = [
       },
     ],
   },
+
+  {
+    id: 'mastodon-9-million-users',
+    categories: ['news', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'hashtag',
+    datetime: '2023-01-03 21:00',
+    title: 'Mastodon has reached 9 million users',
+    body: 'Mastodon has reached 9 million users. It has taken around 8 weeks to sign up 1 million users, when it reached 8 million in November 2022.',
+    image: {
+      link:'https://i.redd.it/pg1qehxkxv9a1.png',
+      src: 'https://i.redd.it/pg1qehxkxv9a1.png',
+      alt: 'Post showing the crossing of the 9 million mark',
+      caption: '9 million users',
+    },
+    links: [  {
+        href: 'https://bitcoinhackers.org/@mastodonusercount/109627048500822352',
+        linkText: 'Post by @mastodonusercount@bitcounhackers.org',
+      },
+    ],
+  },  
 
   {
     id: 'pixelfed-android-apk-release',
@@ -97,6 +164,23 @@ const entries = [
   },
 
   {
+    id: 'soapbox-release-30',
+    categories: ['tools'],
+    color: 'forestgreen',
+    faicon: 'screwdriver-wrench',
+    date: '2022-12-25 00:00',
+    title: 'Soapbox releases version 3.0',
+    body: 'Soapbox, a UI for the Fediverse that can replace the Mastodon UI, has released version 3.0. Notable new features are quote posting, reply mentions, and post editing.',
+    links: [
+      {
+        href: 'https://soapbox.pub/blog/releasing-soapbox-3.0',
+        linkText: 'Releasing Soapbox 3.0, by Soapbox',
+      },
+    ],
+  },
+
+
+  {
     id: 'reddit-ama-eugen-rochko',
     categories: ['mastodon'],
     color: 'forestgreen',
@@ -148,6 +232,22 @@ const entries = [
       },
     ],
   },  
+
+  {
+    id: 'opencollective-the-era-of-mastodon',
+    categories: ['analysis', 'activitypub'],
+    color: 'forestgreen',
+    faicon: 'hashtag',
+    date: '2022-12-05',
+    title: 'A blog by Open Collective on community financing for Mastodon',
+    body: 'Open Collective is an online funding platform for open and transparent communities. In this blogpost, they highlight the different ways that Mastodon and other servers on the Fediverse have been financing decentralized communities.',
+    links: [
+      {
+        href: 'https://blog.opencollective.com/the-era-of-mastodon/',
+        linkText: ' The Era of Mastodon, Open Collective',
+      },
+    ],
+  }, 
 
   {
     id: 'lighting-a-bonfire-under-social-media-devs-and-activitypub',
