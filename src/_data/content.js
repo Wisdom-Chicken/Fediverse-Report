@@ -4,16 +4,16 @@ const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10
 
 const entries = [
   {
-    id: 'patreon-update-mastodon',
-    categories: ['news', 'mastodon'],
+    id: 'tumblr-activitypub-update-jan23',
+    categories: ['news', 'activitypub'],
     color: 'forestgreen',
     faicon: 'newspaper',
     date: '2023-01-07',
-    title: 'Patreon update by the Mastodon organisation',
-    body: 'The Mastodon organisation has posted a news update on their Patreon page. The organisation has grown from a monthly donation of 7k USD in November 2022 to 31k USD in January 2023. They plan to hire more people, and have layed out the public roadmap. For all the details, see the post on Patreon.',
+    title: 'Automattic CEO re-comits Tumblr to implement ActivityPub',
+    body: 'Automattic CEO recently spoke on the podcast Hallway chats, and said the following: <br><br> ""Tumblr is...not open source yet. But we’ve said it’s going to be & we’ve tried to make the data super open. So the API’s, you can put your Tumblr into WordPress very easily, you can export all your Tumblr content... then longer term, we want to support these new protocols like activity pub on top of… We’re gonna support #RSS so things are easy to get in and out." ',
     links: [  {
-      href: 'https://www.patreon.com/posts/where-were-at-76904049',
-      linkText: 'Where we`re at, by Mastodon organisation',
+      href: 'https://indieweb.social/@tchambers/109644110300193716',
+      linkText: 'Mastodon post by Tim Chambers',
       },
     ],
   },
