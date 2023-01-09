@@ -4,6 +4,46 @@ const footer = 'Fediverse report is a production of Laurens Hof - version 0.0.10
 
 const entries = [
   {
+    id: 'fediverse-api-released',
+    categories: ['tools', 'fediverse'],
+    color: 'forestgreen',
+    faicon: 'screwdriver-wrench',
+    date: '2023-01-09',
+    title: 'Fediverse Almanac, an API for the Fediverse, released',
+    body: 'Fediverse Almanac is an API that queries all the instances of the entire Fediverse. It shows bans between instances, banned keywords, and can gather data on the software, networks and companies of the Fediverse.',
+    links: [  {
+        href: 'https://hachyderm.io/@tedivm/109656323461979925',
+        linkText: 'Mastodon post by Rob Hafner',
+      },
+      {
+        href: 'https://www.fediversealmanac.com/docs',
+        linkText: 'API documentation',
+      },
+    ],
+  },
+
+  {
+    id: 'elon-musk-drove-more-than-a-million-people-to-mastodon-but-many-arent-sticking-around',
+    categories: ['news', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'newspaper',
+    date: '2023-01-07',
+    title: 'The Guardian: "Elon Musk drove more than a million people to Mastodon – but many aren’t sticking around"',
+    body: 'The guardian has done data analysis on the active users in the Mastodon network, showing a huge peak in early December, but accompanying a significant dropoff in the following weeks.',
+    image: {
+      link:'https://www.theguardian.com/news/datablog/2023/jan/08/elon-musk-drove-more-than-a-million-people-to-mastodon-but-many-arent-sticking-around',
+      src: '../img/theguardian_graph_7jan23.jpg',
+      alt: 'Graph by The Guardian showing the active users over time',
+      caption: 'Active users on Mastodon over time, by The Guardian',
+    },
+    links: [  {
+      href: 'https://www.theguardian.com/news/datablog/2023/jan/08/elon-musk-drove-more-than-a-million-people-to-mastodon-but-many-arent-sticking-around',
+      linkText: 'Article by The Guardian',
+      },
+    ],
+  },
+
+  {
     id: 'tumblr-activitypub-update-jan23',
     categories: ['news', 'activitypub'],
     color: 'forestgreen',
@@ -48,6 +88,20 @@ const entries = [
     ],
   },
 
+  {
+    id: 'journalists-and-others-should-leave-twitter-heres-how-they-can-get-started',
+    categories: ['analysis', 'mastodon'],
+    color: 'forestgreen',
+    faicon: 'magnifying-glass',
+    date: '2023-01-04',
+    title: 'Techdirt: Journalists (And Others) Should Leave Twitter. Here’s How They Can Get Started ',
+    body: 'Techdirt: "Elon Musk has demonstrated contempt for free speech in general, and journalism in particular, with his behavior at Twitter. He is also demonstrating why it is foolhardy for anyone to rely on centralized platforms to create and distribute vital information. Journalists — among many information providers and users — should move to decentralized systems where they have control of what they say and how they distribute it. And philanthropic organizations have a major role to play. Here is a way forward."',
+    links: [  {
+      href: 'https://www.techdirt.com/2023/01/04/journalists-and-others-should-leave-twitter-heres-how-they-can-get-started/',
+      linkText: 'Journalists (And Others) Should Leave Twitter. Here’s How They Can Get Started, by Techdirt',
+      },
+    ],
+  },
 
   {
     id: 'eugen-rochko-considering-quote-posting',
@@ -159,6 +213,22 @@ const entries = [
       {
         href: 'https://arstechnica.com/gadgets/2022/12/mastodon-highlights-pros-and-cons-of-moving-beyond-big-tech-gatekeepers/',
         linkText: '"Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers", Ars Technica',
+      },
+    ],
+  },
+
+  {
+    id: 'twitter-rival-mastodon-rejects-funding-to-preserve-nonprofit-status',
+    categories: ['mastodon', 'news'],
+    color: 'forestgreen',
+    faicon: 'newspaper',
+    date: '2022-12-28 00:00',
+    title: 'Mastodon rejects VC funding',
+    body: 'Per Ars Technica: <br> Rochko told the Financial Times he had received offers from more than five US-based investors to invest “hundreds of thousands of dollars” in backing the product, following its fast growth. <br> But he said the platform’s non-profit status was “untouchable,” adding that Mastodon’s independence and the choice of moderation styles across its servers were part of its attraction.',
+    links: [
+      {
+        href: 'https://arstechnica.com/tech-policy/2022/12/twitter-rival-mastodon-rejects-funding-to-preserve-nonprofit-status/',
+        linkText: 'Twitter rival Mastodon rejects funding to preserve nonprofit status, by Ars Technica',
       },
     ],
   },
