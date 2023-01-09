@@ -283,6 +283,22 @@ const entries = [
   },
 
   {
+    id: 'peertube-v5-the-result-of-5-years-handcrafting',
+    categories: ['news', 'peertube'],
+    color: 'forestgreen',
+    faicon: 'camera',
+    date: '2022-12-13',
+    title: 'PeerTube v5 : the result of 5 years’ handcrafting',
+    body: 'Framasoft, the French non-profit behind software like PeerTube and other federated programs, has released version v5 of PeerTube. Accompanying the release, this blogspot gives a summary of the major events of the year regarding PeerTube.',
+    links: [
+      {
+        href: 'https://framablog.org/2022/12/13/peertube-v5-the-result-of-5-years-handcrafting/',
+        linkText: 'Blog post by Framasoft',
+      },
+    ],
+  },
+
+  {
     id: 'the-creator-of-activitypub-on-whats-next-for-the-fediverse',
     categories: ['analysis', 'activitypub'],
     color: 'forestgreen',
